@@ -30,7 +30,7 @@ header {
 }
 
 body {
-  background: #ffffff;
+  background: #eee3ab;
   max-width: 700px;
   /* height: 100vh; */
   margin: 0 auto;
@@ -40,15 +40,18 @@ body {
 }
 
 footer {
-  background: #545763;
   color: azure;
+  background-color: #92140c;
   height: 50px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 8px Verdana, Arial, sans-serif;
 }
 
 article {
   padding: 10px;
-  background-color: azure;
+  background: #d9cfc1;
 }
 
 article p {
@@ -56,13 +59,18 @@ article p {
 }
 
 .links {
+  padding: 25px 0;
   text-align: center;
+  background-color: #ba3f1d;
+  color: #d9cfc1;
 }
 .links ul li {
   display: inline;
 }
 .links a {
   margin: 0 10px;
+  text-decoration: none;
+  color: #d9cfc1;
 }
 .links li::after {
   content: '|';
