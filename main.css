@@ -49,13 +49,22 @@ footer {
   font: 8px Verdana, Arial, sans-serif;
 }
 
-article {
-  padding: 10px;
+main {
   background: #d9cfc1;
 }
 
-article p {
-  margin: 5px 0;
+article p,
+article h3 {
+  margin: 5px 10px;
+}
+
+section h2 {
+  padding: 10px 10px;
+  font-size: 20px;
+}
+
+iframe {
+  border: 0;
 }
 
 .links {
